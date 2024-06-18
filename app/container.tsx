@@ -7,7 +7,7 @@ import {
 
 import SortableItem from "./sortable_item";
 
-export default function Container(props) {
+export default function Container(props: any) {
 	const { id, items } = props;
 
 	const { setNodeRef } = useDroppable({
